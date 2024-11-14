@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Test.css">
+</head>
+<body>
+    <div class="header">
+        <p id="head"> Game 1</p>
+        <p id="head"> Game 2</p>
+        <p id="head"> Game 3</p>
+    </div>
+
+    <div class="game1">
+        <h1>Game 1</h1>
+        <p>Welcome to Game 1!</p>
+        <div class="btns">
+        <button id="btnMama">Mama</button>
+        <button id="btnPapa">Papa</button>
+        </div>
+        <p id="message"></p>
+    </div>
+
+    <div class="game2">
+        <h1>Game 2</h1>
+        <p>Welcome to Game 2!</p>
+        <div class="btns">
+        <input type="text" id="input" placeholder="Schreib ein Text">
+        <button onclick="reverseString()" id="btnReverse">Reverse</button>
+        </div>
+        <p id="message2"></p>
+        
+    </div>
+
+    <div class="game3">
+        <h1>Game 3</h1>
+        <p>Welcome to Game 3!</p>
+        <p>Gib eine Zahl zwschen 1 und 10 ein und schau, ob du richtig geraten hast!</p>
+       <div class="btns">
+        <input type="text" id="input2" placeholder="Schreib ein Text">
+        <button onclick="reverseString()" id="btnReverse">Raten</button>
+       </div>
+        <p id="message3"></p>
+    </div>
+
+
+
+
+
+    <script src="./Test.js"></script>
+</body>
+</html>
